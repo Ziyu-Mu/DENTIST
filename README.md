@@ -1,4 +1,6 @@
 # DENTIST
 Denoise Sptially Resolved Transcriptomics Data
 
-Only codes of my project for current.
+Only codes of main for current.
+
+Codes for plots and preprocess is coming.

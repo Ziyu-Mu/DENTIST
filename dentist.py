@@ -28,11 +28,11 @@ import shutil
     
 class DENTIST:
     '''
-    Performs netNMF-sc with gradient descent using Tensorflow
+    Performs DENTIST with gradient descent using Tensorflow
     '''
     def __init__(self, distance="frobenius", d=None, S=None, lamb=10, n_inits=2, tol=1e-2, 
                  max_iter=20000, n_jobs=4, weight=0.5, parallel_backend='multiprocessing', 
-                 normalize=False, lr=0.0001, init='nndsvd', random_state=None):
+                 normalize=False, lr=0.0001, init='wdgsvd', random_state=None):
         """
             d:          number of dimensions
             S:          Similarity Matrix
